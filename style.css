@@ -1,0 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap');
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    background-color: rgb(195, 195, 135);
+}
+header{
+    display: flex;
+    align-items: center;
+    margin-top: 20px;
+}
+.header_logo a{
+    font-size: 54px;
+    font-weight: 500;
+}
+.header_logo{
+    margin-left: 50px;
+}
+header nav li{
+    display: inline;
+    padding-left: 100px;
+}
+header nav{
+    margin-left: 1300px;
+}
+a{
+    text-decoration: none;
+    font-size: 40px;
+    color: black;
+    font-weight: 500;
+    border-bottom: 0px solid rgb(105, 105, 52);
+    transition: 0.1s;
+}
+.wrapper{
+    width: 75%;
+    margin: auto;
+}
+.main_welcome{
+    text-align: center;
+}
+.main_welcome .main_text{
+    margin-top: 170px;
+}
+.main_welcome span{
+    font-size: 54px;
+    font-weight: 300;
+}
+.main_cataloge{
+    text-align: center;
+    margin-top: 100px;
+}
+.main_cataloge .main_cards .card p{
+    font-size: 50px;
+    color: black;
+    margin-top: 10px
+}
+.main_cataloge .main_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.main_cataloge .main_cards .card img{
+    width: 409px;
+    height: 579px;
+}
+.main_cataloge .main_cards .card{
+    margin: 50px auto;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.dis{
+    visibility: hidden;
+}
+.main_cataloge .main_cards .card:hover{
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+
+.wrapper_mini{
+    width: 75%;
+    margin: auto;
+}
+.main_welcome{
+    text-align: center;
+}
+.main_welcome .main_text{
+    margin-top: 170px;
+}
+.main_welcome span{
+    font-size: 54px;
+    font-weight: 300;
+}
+.main_cataloge{
+    text-align: center;
+    margin-top: 100px;
+}
+.main_cataloge .main_card_minis .card_mini p{
+    font-size: 50px;
+    color: black;
+    margin-top: 10px
+}
+.main_cataloge .main_cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: left;
+}
+.main_cataloge .main_card_minis .card_mini img{
+    width: 409px;
+    height: 579px;
+    transform: scale(1.1);
+}
+.main_cataloge .main_card_minis .card_mini{
+    margin: 50px auto;
+    cursor: pointer;
+    margin-bottom: 100px;
+}
+.main_cataloge .main_cards .card_no_animation{
+    margin: 50px auto;
+    cursor: pointer;
+}
+.wrapper h1{
+    font-size: 50px;
+    font-weight: 400;
+    margin-bottom: 50px;
+}
+header nav li a:hover{
+    transition: 0.1s;
+    border-bottom: 3px solid rgb(124, 124, 58);
+}
+.wrapper h4{
+    font-size: 40px;
+    font-weight: 300;
+    padding: 10px;
+}
+.small_text h1{
+    margin-top: 100px;
+    font-size: 50px;
+    padding: 10px;
+}
+.small_text{
+    margin-bottom: 100px;
+}
